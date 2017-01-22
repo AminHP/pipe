@@ -11,7 +11,7 @@ class Block:
 
         if angle == 0:
             action_id = 2
-        if angle == 90:
+        elif angle == 90:
             self.u, self.r, self.d, self.l = self.r, self.d, self.l, self.u
             action_id = 1
         elif angle == 180:
